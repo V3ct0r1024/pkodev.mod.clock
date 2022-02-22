@@ -1,0 +1,8 @@
+------------------------------------------------------------------------------------------
+-- Clock label
+------------------------------------------------------------------------------------------
+labClock = UI_CreateCompent(frmMinimap, LABELEX_TYPE, "labClock", 20, 15, 20, 220)
+UI_SetCaption(labClock, "Clock")
+UI_SetTextColor(labClock, COLOR_WHITE)
+UI_SetLabelExFont(labClock, DEFAULT_FONT, TRUE, COLOR_BLACK)
+------------------------------------------------------------------------------------------
